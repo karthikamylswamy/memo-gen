@@ -1,0 +1,7 @@
+{
+  "name": "Syndicated Loan Credit Memo AI",
+  "description": "A sophisticated AI-powered application for generating comprehensive syndicated loan credit memos with multi-agent reasoning, document analysis, and high-fidelity reporting.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
