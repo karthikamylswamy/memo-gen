@@ -36,7 +36,7 @@ export interface CreditMemo {
     businessPurpose: string;
     adjudicationConsiderations: string;
     annualReviewStatus: string;
-    purposeBreakdown: string;
+    purposeBreakdown: string; // New Facilities, Financial Covenants, Maturity Dates
   };
   // 5. Credit Position Table
   creditPosition: {
@@ -220,7 +220,7 @@ export interface CreditMemo {
     comments: string;
   };
   // 32. Booking Options
-  bookingOptions?: {
+  bookingOptions: {
     instrumentTypes: string;
     currencies: string;
     lcSublimit: string;

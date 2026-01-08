@@ -140,6 +140,12 @@ export const INITIAL_MEMO_STATE: CreditMemo = {
     approval: "",
     comments: ""
   },
+  bookingOptions: {
+    instrumentTypes: "",
+    currencies: "",
+    lcSublimit: "",
+    competitiveAdvance: ""
+  },
   interestRatesFees: {
     indexDebtRatings: "",
     applicableMargin: "",
